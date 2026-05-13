@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="site-wrapper">
+  <header class="main-header">
+    <div class="container nav-flex">
+      <div class="logo"><a href="../../about-contact.html">Portfolio</a></div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="interests.html">Interests</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-toggle" id="mobileToggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </header>
+  <main class="main-content">
+    <div class="container">
+      <h1 class="page-heading">Works</h1>
+      <div class="interests-grid">
+        <div class="card">
+          <img src="assets/IMG_20231204_144901.jpg">
+        </div>
+        <div class="card">
+          <img src="assets/IMG_20240226_141828.jpg">
+        </div>
+        <div class="card">
+          <img src="assets/IMG_20240305_132840_HDR~2.jpg">
+        </div>
+        <div class="card">
+          <img src="assets/IMG_20240411_151519_HDR.jpg">
+        </div>
+        <div class="card">
+          <img src="assets/IMG_20240518_111650~2.jpg">
+        </div>
+        <div class="card">
+          <img src="assets/IMG_20240713_164308.jpg">
+        </div>
+        <div class="card">
+          <img src="assets/IMG_20240728_091805~2.jpg">
+        </div>
+        <div class="card">
+          <img src="assets/IMG_20240830_145004_HDR~2.jpg">
+        </div>
+        <div class="card">
+          <img src="assets/IMG_20241203_160337_HDR~4.jpg">
+        </div>
+        <div class="card">
+          <img src="assets/IMG_20241206_210300_HDR~2.jpg">
+        </div>
+        <div class="card">
+          <img src="assets/Messenger_creation_52B4D395-726A-40A3-990D-98B7CEEB2416.jpeg">
+        </div>
+        <div class="card">
+          <img src="assets/original_4226c1a4-5666-4858-8618-b4e95dcf76b6_IMG_20241115_064839_HDR.jpg">
+        </div>
+    </div>
+  </main>
+  <footer class="main-footer">
+    <div class="container footer-inner">
+      <div class="footer-copy">
+        <p>© 2026</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/Jireh-dot"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/jehovah.ji?igsh=ZHJwOGE2Yje0cm5k"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://facebook.com/jaireh.jimenez?mibextid=JRoKGi"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+</div>
+<script>
+  const toggleBtn = document.getElementById('mobileToggle');
+  const navLinks = document.querySelector('.nav-links');
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  }
+</script>
+</body>
+</html>

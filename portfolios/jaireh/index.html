@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="site-wrapper">
+  <header class="main-header">
+    <div class="container nav-flex">
+      <div class="logo"><a href="../../about-contact.html">Portfolio</a></div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="interests.html">Interests</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-toggle" id="mobileToggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </header>
+  <main class="main-content">
+    <div class="container">
+      <section class="hero-section">
+        <div class="hero-badge">Meet</div>
+        <h1 class="hero-title">Jaireh J. Velasco</h1>
+        <div class="hero-text-card">
+          <p class="placeholder-text">Freelance Painter with 6 years of experience in Oil Painting. Currently offering commissioned paintings locally around the province of Pangasinan. </p>
+        </div>
+        <div class="hero-actions">
+          <a href="projects.html" class="btn btn-outline">explore work <i class="fas fa-arrow-right"></i></a>
+          <a href="contact.html" class="btn btn-primary">connect</a>
+        </div>
+        <div class="profile-flex">
+          <div class="profile">
+            <img src="assets/B612_20240426_201148_220~2.jpg" alt="Portrait">
+          </div>
+          <div class="profile">
+            <img src="assets/profile2.jpg" alt="Portrait">
+          </div>
+          <div class="profile">
+            <img src="assets/profile1.jpg" alt="Portrait">
+          </div>
+        </div>
+      </section>
+      <div class="insert-note"><p class="placeholder-text"><em>"Talent is a pursued interest"</em><br>-Bob Ross</p></div>
+    </div>
+    <div class="container">
+      <h1 class="page-heading">About Me</h1>
+      <div class="section-card">
+        <p class="placeholder-text">Hi! my name is Jaireh. A student from Universidad de Dagupan enrolled in Multimedia Arts and Animation block 12-ITEM-01, I am an artist who enjoys learning about technology and design. I code with basic knowledge in HTML and CSS, creating art with meaningful pieces of imagery, and exploring new ideas. Someone who's passionate about their interests to gain the courage and turn it into a long time career.</p>
+      </div>
+      <div class="section-card">
+        <h3 style="margin-bottom: 1rem">Goal</h3>
+        <p class="placeholder-text">I wish to become a world renowned oil painter if UI/UX wasn't my main goal in life. My goal is to bring my creative ideas into the real world, wishing to succeed in designing in order to show that</p>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="page-heading">Interests</h1>
+      <div class="interests-grid">
+        <div class="interest-card">
+          <img src="assets/IMG_20260109_141818_204.jpg">
+          <h3>Cats</h3>
+        </div>
+        <div class="interest-card">
+          <img src="assets/IMG_20260228_162807_372~2.jpg">
+          <h3>Painting</h3>
+        </div>
+        <div class="interest-card">
+          <img src="assets/1347dc97d95b33622ea56cbbc1feb3dc.jpg">
+          <h3>Fiction</h3>
+        </div>
+        <div class="interest-card">
+          <img src="assets/808bc6ddedc34d2604dd25727de2c480.jpg">
+          <h3>Music</h3>
+    </div>
+  </main>
+  <footer class="main-footer">
+    <div class="container footer-inner">
+      <div class="footer-copy">
+        <p>© 2026</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/Jireh-dot"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/jehovah.ji?igsh=ZHJwOGE2Yje0cm5k"><i class="fa-brands fa-instagram"></i></a>
+       <a href="https://facebook.com/jaireh.jimenez?mibextid=JRoKGi"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+</div>
+<script>
+  const toggleBtn = document.getElementById('mobileToggle');
+  const navLinks = document.querySelector('.nav-links');
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  }
+</script>
+
+</body>
+</html>
