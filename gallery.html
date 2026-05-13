@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | CineWave Creative Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="cursor-glow" data-cursor-glow></div>
+  <div class="page-noise"></div>
+  <header class="site-header" data-header>
+    <a href="index.html" class="brand" aria-label="CineWave Creative Studio Home">
+      <span class="brand-mark">CW</span>
+      <span class="brand-text">CineWave</span>
+    </a>
+
+    <button class="menu-toggle" data-menu-toggle aria-label="Open navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-menu" data-nav-menu>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about-contact.html">About & Contact</a>
+      <a href="about-contact.html#contact" class="nav-cta">Book Now</a>
+    </nav>
+  </header>
+
+  <main class="top-page">
+    <section class="page-hero reveal">
+      <p class="eyebrow">Creative Gallery</p>
+      <h1>A curated showcase of sample works and visual directions.</h1>
+      <p>
+        Filter the gallery by category and click a card to preview it.
+      </p>
+    </section>
+
+    <section class="section-space gallery-section">
+      <div class="filter-bar reveal" aria-label="Gallery category filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="photo">Photography</button>
+        <button class="filter-btn" data-filter="video">Video</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+        <button class="filter-btn" data-filter="art">Art</button>
+        <button class="filter-btn" data-filter="uiux">UI/UX</button>
+      </div>
+
+      <div class="gallery-grid">
+        <article class="gallery-item reveal" data-category="photo" data-title="Event Coverage"
+          data-description="Photography for memorable events and millions of stories." data-image="assets/ev.jpg">
+          <img src="assets/ev.jpg" alt="Event coverage placeholder" />
+          <div class="gallery-overlay">
+            <span>Photography</span>
+            <h2>Event Coverage</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal delay-1" data-category="photo" data-title="Portrait Session"
+          data-description="Creative portrait visuals with cinematic color direction." data-image="assets/port.jpg">
+          <img src="assets/port.jpg" alt="Portrait session placeholder" />
+          <div class="gallery-overlay">
+            <span>Photography</span>
+            <h2>Portrait Session</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal delay-2" data-category="photo" data-title="Street Photography"
+          data-description="Candid street photography capturing everyday moments, emotion, and urban life."
+          data-image="assets/street.jpg">
+          <img src="assets/street.jpg" alt="Street placeholder" />
+          <div class="gallery-overlay">
+            <span>Photography</span>
+            <h2>Street Photography</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal" data-category="photo" data-title="Scenic Landscape"
+          data-description="Landscape photography showcasing natural environments, light, and atmosphere."
+          data-image="assets/nature.jpg">
+          <img src="assets/nature.jpg" alt="Scenic Landscape placeholder" />
+          <div class="gallery-overlay">
+            <span>Photography</span>
+            <h2>Scenic Landscape</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal delay-1" data-category="photo" data-title="Gig Photography"
+          data-description="Photos captured during live music performances, showcasing artists, stage moments, and the energy of the crowd."
+          data-image="assets/gig.jpg">
+          <img src="assets/gig.jpg" alt="Gig Photography placeholder" />
+          <div class="gallery-overlay">
+            <span>Photography</span>
+            <h2>Gig Photography</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal delay-2" data-category="design" data-title="Movie Poster"
+          data-description="Digital posters, social layouts, and brand visuals." data-image="assets/Movie poster.png">
+          <img src="assets/Movie poster.png" alt="Graphic design placeholder" />
+          <div class="gallery-overlay">
+            <span>Design</span>
+            <h2>Movie Poster</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal" data-category="design" data-title="Shirt Design"
+          data-description="Digital posters, social layouts, and brand visuals." data-image="assets/shirt 1.png">
+          <img src="assets/shirt 1.png" Graphic design placeholder" />
+          <div class="gallery-overlay">
+            <span>Design</span>
+            <h2>Shirt Design</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal delay-1" data-category="design" data-title="Graphic Design Set"
+          data-description="Digital posters, social layouts, and brand visuals." data-image="assets/JC POSTER.png">
+          <img src="assets/JC POSTER.png" alt="Graphic design placeholder" />
+          <div class="gallery-overlay">
+            <span>Design</span>
+            <h2>Graphic Design Set</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal delay-2" data-category="design" data-title="Creative Pubmats"
+          data-description="Designed visuals used to communicate messages and promote ideas clearly and attractively."
+          data-image="assets/pubmat.jpg">
+          <img src="assets/pubmat.jpg" alt="Graphic design placeholder" />
+          <div class="gallery-overlay">
+            <span>Design</span>
+            <h2>Creative Pubmats</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal" data-category="art" data-title="Oil Painting Work"
+          data-description="Traditional art and creative painting direction."
+          data-image="portfolios/jaireh/assets/IMG_20260228_162807_372~2.jpg">
+          <img src="portfolios/jaireh/assets/IMG_20260228_162807_372~2.jpg" alt="Oil painting placeholder" />
+          <div class="gallery-overlay">
+            <span>Art</span>
+            <h2>Oil Painting Work</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal delay-1" data-category="art" data-title="Sketch Drawing"
+          data-description="Artwork created using graphite, focusing on shading, detail, and expression through hand-drawn techniques."
+          data-image="assets/sketch.jpg">
+          <img src="assets/sketch.jpg" alt="Sketch Drawing" />
+          <div class="gallery-overlay">
+            <span>Art</span>
+            <h2>Sketch Drawing</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal delay-2" data-category="uiux" data-title="UI/UX Concept"
+          data-description="Interface layout ideas and modern digital experiences." data-image="assets/uiux.png">
+          <img src="assets/uiux.png" alt="UI/UX design placeholder" />
+          <div class="gallery-overlay">
+            <span>UI/UX</span>
+            <h2>UI/UX Concept</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal" data-category="video" data-type="video" data-title="Mini Vlog"
+          data-description="Short-form video content that captures moments, stories, or experiences in a quick and engaging way."
+          data-video="assets/Mini Vlog.mov">
+          <video autoplay muted loop playsinline>
+            <source src="assets/Mini Vlog.mov" type="video/mp4">
+          </video>
+          <div class="gallery-overlay">
+            <span>Video</span>
+            <h2>Mini Vlog</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal delay-1" data-category="video" data-type="video" data-title="Pre-Debut Film"
+          data-description="A short video introducing a debutant, showcasing personality, highlights, and special moments before the main celebration."
+          data-video="assets/Pre-debut.mov">
+          <video autoplay muted loop playsinline>
+            <source src="assets/Pre-debut.mov" type="video/mp4">
+          </video>
+          <div class="gallery-overlay">
+            <span>Video</span>
+            <h2>Pre-Debut Film</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal delay-2" data-category="video" data-type="video"
+          data-title="Promotional Video Edit"
+          data-description="Promotional video with engaging visuals, smooth transitions, and persuasive storytelling."
+          data-video="assets/promotionvid.mp4">
+          <video autoplay muted loop playsinline>
+            <source src="assets/promotionvid.mp4" type="video/mp4">
+          </video>
+          <div class="gallery-overlay">
+            <span>Video</span>
+            <h2>Promotional Video Edit</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal" data-category="video" data-type="video" data-title="Event Coverage"
+          data-description="Cinematic highlight edit with smooth transitions, motion graphics, and dynamic storytelling."
+          data-video="assets/SF-D9.mp4">
+          <video autoplay muted loop playsinline>
+            <source src="assets/SF-D9.mp4" type="video/mp4">
+          </video>
+          <div class="gallery-overlay">
+            <span>Video</span>
+            <h2>Event Coverage</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal delay-1" data-category="video" data-type="video"
+          data-title="Motion Graphics Edit" data-description="Animated elements editing."
+          data-video="assets/motiongraphs2.mp4">
+          <video autoplay muted loop playsinline>
+            <source src="assets/motiongraphs2.mp4" type="video/mp4">
+          </video>
+          <div class="gallery-overlay">
+            <span>Video</span>
+            <h2>Motion Graphics Edit</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal delay-2" data-category="video" data-type="video"
+          data-title="Typography Reel" data-description="Animated texts, transitions, and cinematic editing."
+          data-video="assets/AM Lyric Edit.mp4">
+          <video autoplay muted loop playsinline>
+            <source src="assets/AM Lyric Edit.mp4" type="video/mp4">
+          </video>
+          <div class="gallery-overlay">
+            <span>Video</span>
+            <h2>Typography Reel</h2>
+          </div>
+        </article>
+
+        <article class="gallery-item reveal" data-category="video" data-type="video"
+          data-title="Typography Reel" data-description="Animated texts, transitions, and cinematic editing."
+          data-video="assets/typogr.mp4">
+          <video autoplay muted loop playsinline>
+            <source src="assets/typogr.mp4" type="video/mp4">
+          </video>
+          <div class="gallery-overlay">
+            <span>Video</span>
+            <h2>Typography Reel</h2>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="modal" data-modal aria-hidden="true">
+      <button class="modal-close" data-modal-close aria-label="Close preview">×</button>
+      <div class="modal-content">
+        <img src="" alt="" data-modal-image />
+        <video data-modal-video controls style="display:none; width:100%;"></video>
+        <div>
+          <p class="eyebrow">Preview</p>
+          <h2 data-modal-title></h2>
+          <p data-modal-description></p><br>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h3>CineWave Creative Studio</h3>
+      <p>Freelance creative team for photo, film, design, art, and digital experiences.</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about-contact.html">Team</a>
+    </div>
+    <p class="footer-note">ITEPC02 | Web Technology and Development 1 | Academic Year 2025–2026</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

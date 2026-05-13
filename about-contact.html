@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About & Contact | CineWave Creative Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="cursor-glow" data-cursor-glow></div>
+  <div class="page-noise"></div>
+  <header class="site-header" data-header>
+    <a href="index.html" class="brand" aria-label="CineWave Creative Studio Home">
+      <span class="brand-mark">CW</span>
+      <span class="brand-text">CineWave</span>
+    </a>
+
+    <button class="menu-toggle" data-menu-toggle aria-label="Open navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-menu" data-nav-menu>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about-contact.html">About & Contact</a>
+      <a href="about-contact.html#contact" class="nav-cta">Book Now</a>
+    </nav>
+  </header>
+
+  <main class="top-page">
+    <section class="page-hero reveal">
+      <p class="eyebrow">About CineWave</p>
+      <h1>We are a five-member freelance team combining media, design, art, and development.</h1>
+      <p>
+        CineWave Creative Studio is the main group website that presents our freelance services
+        and connects visitors to each member’s individual portfolio.
+      </p>
+    </section>
+
+    <section class="section-space about-panel reveal">
+      <div>
+        <p class="eyebrow">Our Identity</p>
+        <h2>Built for creative collaboration.</h2>
+      </div>
+      <p>
+        Our team brings together different strengths: video editing, cinematography, photography,
+        development, graphic design, oil painting, and UI/UX interest. Instead of presenting ourselves
+        separately, this website acts as one creative studio where clients can understand what we offer
+        and explore each member’s personal portfolio.
+      </p>
+    </section>
+
+    <section class="section-space team-section" id="team">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Meet the Team</p>
+        <h2>The creatives behind CineWave.</h2>
+        <p>Each member has a clickable portfolio page.</p>
+      </div>
+
+      <div class="team-grid">
+        <article class="team-card reveal">
+          <img src="portfolios/zugie/assets/ako.png" alt="Zugie M. Martinez placeholder portrait" />
+          <h3>Zugie M. Martinez</h3>
+          <p class="role">Video Editor</p>
+          <p>Freelance editor focused on motion graphics, cinematography, and dynamic visual storytelling.</p>
+          <a href="portfolios/zugie/portfolio.html" class="btn btn-small">View Portfolio</a>
+        </article>
+
+        <article class="team-card reveal delay-1">
+          <img src="portfolios/louie/images/IMG_0261.png" alt="Louie Jay Dalo placeholder portrait" />
+          <h3>Louie Jay Dalo</h3>
+          <p class="role">Photographer / Videographer</p>
+          <p>A visual storyteller who captures meaningful moments through photography, videography, and cinematic content.</p>
+          <a href="portfolios/louie/index.html" class="btn btn-small">View Portfolio</a>
+        </article>
+
+        <article class="team-card reveal delay-2">
+          <img src="portfolios/arniel/Experience/MODEL.jpg" alt="Arniel D. Apurado placeholder portrait" />
+          <h3>Arniel D. Apurado</h3>
+          <p class="role">Editor and Developer</p>
+          <p>A creative editor and developer who combines visual editing with web development skills.</p>
+          <a href="portfolios/arniel/portfolio.html" class="btn btn-small">View Portfolio</a>
+        </article>
+
+        <article class="team-card reveal delay-1">
+          <img src="portfolios/jaireh/assets/profile2.jpg" alt="Jaireh J. Velasco placeholder portrait" />
+          <h3>Jaireh J. Velasco</h3>
+          <p class="role">Oil Painter / Aspiring UI/UX Designer</p>
+          <p>An oil painter with 6 years of experience, now exploring UI/UX design and local creative services.</p>
+          <a href="portfolios/jaireh/index.html" class="btn btn-small">View Portfolio</a>
+        </article>
+
+        <article class="team-card reveal delay-2">
+          <img src="portfolios/madison/pics/2x2 edit v2.png" alt="Madison James Bustillo placeholder portrait" />
+          <h3>Madison James Bustillo</h3>
+          <p class="role">Graphic Designer</p>
+          <p>A graphic designer focused on creating clean, creative, and visually engaging digital designs.</p>
+          <a href="portfolios/madison/index.html" class="btn btn-small">View Portfolio</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-space contact-section" id="contact">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s create something visual together.</h2>
+        <p>
+          Use this form as a front-end contact design. For now, it shows a success message using JavaScript
+          instead of sending data to a server.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:cinewave.creative@example.com">cinewave.creative@example.com</a>
+          <a href="tel:+639000000000">+63 900 000 0000</a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal delay-1" data-contact-form>
+        <label>
+          Full Name
+          <input type="text" name="name" placeholder="Enter your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="Enter your email" required />
+        </label>
+        <label>
+          Project Type
+          <select name="project" required>
+            <option value="">Select a service</option>
+            <option>Photography</option>
+            <option>Videography</option>
+            <option>Video Editing</option>
+            <option>Graphic Design</option>
+            <option>Art / UI/UX</option>
+          </select>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" placeholder="Tell us about your project" required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Send Inquiry</button>
+        <p class="form-message" data-form-message></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h3>CineWave Creative Studio</h3>
+      <p>Freelance creative team for photo, film, design, art, and digital experiences.</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about-contact.html">Team</a>
+    </div>
+    <p class="footer-note">ITEPC02 | Web Technology and Development 1 | Academic Year 2025–2026</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
